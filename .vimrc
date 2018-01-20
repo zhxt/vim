@@ -32,6 +32,8 @@ set rtp+=$GOROOT/misc/vim
 " 显示相关  
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax on
+set synmaxcol=256
+syntax sync minlines=256
 set cul "高亮光标所在行
 set cuc
 set shortmess=atI   " 启动的时候不显示那个援助乌干达儿童的提示  
